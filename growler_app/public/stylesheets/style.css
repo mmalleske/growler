@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.inputfield {
+  width: 400px;
+  height: 100px;
+}
+
+.submitButton {
+  display: block;
+  margin-top: 20px;
+}

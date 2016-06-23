@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Growler</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='https://bootswatch.com/slate/bootstrap.min.css'/>
+  </head>
+  <body>
+    <h1>Mike and CeCe's Growler</h1>
+    <form action='/' method='post'>
+      <input class='inputfield' type='textarea' name='growl'>
+      <input class='submitButton' type='submit' value='Submit!'>
+    </form>
+    <ul>
+      <% growls.forEach(function(item){ %>
+      <li><%= item.growl %></li>
+      <% }) %>
+    <ul>
+  </body>
+</html>
